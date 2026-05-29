@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+h2 {
+    color: lightseagreen;
+}
+
+.contents {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.notes {
+    background-color: lightseagreen;
+    color: white;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 80px;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+#png {
+background-color: #aaa;
+}
+
+#jpg img {
+    width: 100%;
+}
+
+table {
+    margin-bottom: 20px;
+}
