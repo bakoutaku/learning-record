@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*全体設定*/
+body {
+    font-family: "游ゴシック体",YuGothic,"游ゴシック","Yu Gothic",sans-serif;
+    margin: 0;
+    background-image: url(../images/bg.png);
+    background-color: brown;
+}
+
+img {
+    display: block;
+}
+
+
+/*外枠*/
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+
+/*ヘッダエリア*/
+header {
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: orange;
+}
+
+
+/*コンテンツエリア*/
+.contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*メインエリア（左側）*/
+main {
+    width: 600px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-left: orange 8px solid;
+    border-bottom: black 1px dashed;
+}
+
+article p {
+    margin: 12px 0 20px;
+}
+
+
+/*補足エリア（右側）*/
+aside {
+    width: 300px;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+section h3 {
+    padding: 8px;
+    border-bottom: 1px solid #999;
+    color: orange;
+}
+
+
+/*フッターエリア*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: orange;
+}
+
+footer small {
+    text-align: center;
+    color: brown;
+}
