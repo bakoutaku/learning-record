@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+.items-col {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 960px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+.item {
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.item-img img {
+  width: 100%;
+}
