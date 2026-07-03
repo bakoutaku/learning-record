@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="カフェ,恵比寿ガーデンプレイス,ブランジェリー">
+        <meta name="description" content="恵比寿ガーデンプレイスにある『café5963』のオフィシャルサイトです。">
+        <title>CONTACT お問い合わせ｜café5963</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>café5963　ブランジェリー・カフェ</h1>
+            <div class="mainvisual">
+                <img src="images/img-mainvisual.jpg" alt="メインビジュアル：café5963">
+            </div>
+            <nav class="nav_main">
+                <ul><!--Flexコンテナー（親要素）-->
+                    <li><a href="index.html">HOME</a></li><!--Flexアイテム（子要素）-->
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="access.html">ACCESS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>CONTACT お問い合わせ</h2>
+            <section class="contact_form">
+                <form action="form.php">
+                    <ul>
+                        <li>
+                            <label for="name">お名前</label>
+                            <input type="text" name="name" id="name">
+                        </li>
+                        <li>
+                            <label for="e-mail">e-mail</label>
+                            <input type="email" name="e-mail" id="e-mail">
+                        </li>
+                        <li>
+                            <label for="message">メッセージ</label>
+                            <textarea name="message" rows="10" id="message"></textarea>
+                        </li>
+                        <li>
+                            <label></label>
+                            <button type="submit">送信</button>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </main>
+
+        <footer><!--Flexコンテナー（親要素）-->
+            
+            <nav class="nav_footer"><!--Flexアイテム（子要素：右）-->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="access.html">ACCESS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer_info"><!--Flexアイテム（子要素：左）-->
+                <h3>café5963　ブランジェリー・カフェ</h3>
+                <h4>営業時間</h4>
+                <ul>
+                    <li>ブランジェリー：9:00～21:00</li>
+                    <li>カフェ：9:00～23:00</li>
+                    <li>年中無休</li>
+                </ul>
+                <small>&#169; 2026 caf&eacute;5963</small>
+            </div>
+        </footer>
+    </body>
+</html>
